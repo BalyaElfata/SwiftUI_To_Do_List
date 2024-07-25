@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  To Do List
-//
-//  Created by Balya Elfata on 07/07/24.
-//
-
 import SwiftUI
 
 struct MainView: View {
