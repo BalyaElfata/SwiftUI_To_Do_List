@@ -17,6 +17,7 @@
 		21792AFD2C550E7300C8513C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792AFC2C550E7300C8513C /* MainViewModel.swift */; };
 		21792AFF2C550E8E00C8513C /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792AFE2C550E8E00C8513C /* ProfileViewModel.swift */; };
 		21792B012C550EEB00C8513C /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792B002C550EEB00C8513C /* ToDoListViewModel.swift */; };
+		21792B032C550F0B00C8513C /* NewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792B022C550F0B00C8513C /* NewItemViewModel.swift */; };
 		21F195112C3AA9E6009BDF5E /* To_Do_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F195102C3AA9E6009BDF5E /* To_Do_ListApp.swift */; };
 		21F195132C3AA9E6009BDF5E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F195122C3AA9E6009BDF5E /* MainView.swift */; };
 		21F195152C3AA9E7009BDF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F195142C3AA9E7009BDF5E /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		21792AFC2C550E7300C8513C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		21792AFE2C550E8E00C8513C /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		21792B002C550EEB00C8513C /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		21792B022C550F0B00C8513C /* NewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewModel.swift; sourceTree = "<group>"; };
 		21F1950D2C3AA9E6009BDF5E /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F195102C3AA9E6009BDF5E /* To_Do_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListApp.swift; sourceTree = "<group>"; };
 		21F195122C3AA9E6009BDF5E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				21792AFC2C550E7300C8513C /* MainViewModel.swift */,
 				21792AFE2C550E8E00C8513C /* ProfileViewModel.swift */,
 				21792B002C550EEB00C8513C /* ToDoListViewModel.swift */,
+				21792B022C550F0B00C8513C /* NewItemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				21792AF12C5233C600C8513C /* ToDoListView.swift in Sources */,
 				21792AF92C550D7800C8513C /* User.swift in Sources */,
 				21792AFD2C550E7300C8513C /* MainViewModel.swift in Sources */,
+				21792B032C550F0B00C8513C /* NewItemViewModel.swift in Sources */,
 				21792AEF2C52332D00C8513C /* ProfileView.swift in Sources */,
 				21792AFF2C550E8E00C8513C /* ProfileViewModel.swift in Sources */,
 				21F195112C3AA9E6009BDF5E /* To_Do_ListApp.swift in Sources */,
