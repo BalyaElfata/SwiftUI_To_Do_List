@@ -20,6 +20,8 @@
 		21792B032C550F0B00C8513C /* NewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792B022C550F0B00C8513C /* NewItemViewModel.swift */; };
 		21792B052C552B1100C8513C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792B042C552B1100C8513C /* LoginViewModel.swift */; };
 		21792B072C552B4400C8513C /* ToDoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792B062C552B4400C8513C /* ToDoListItemViewModel.swift */; };
+		21792B092C552B8100C8513C /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792B082C552B8100C8513C /* RegisterViewModel.swift */; };
+		21792B0B2C552B8D00C8513C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792B0A2C552B8D00C8513C /* RegisterView.swift */; };
 		21F195112C3AA9E6009BDF5E /* To_Do_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F195102C3AA9E6009BDF5E /* To_Do_ListApp.swift */; };
 		21F195132C3AA9E6009BDF5E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F195122C3AA9E6009BDF5E /* MainView.swift */; };
 		21F195152C3AA9E7009BDF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F195142C3AA9E7009BDF5E /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		21792B022C550F0B00C8513C /* NewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewModel.swift; sourceTree = "<group>"; };
 		21792B042C552B1100C8513C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		21792B062C552B4400C8513C /* ToDoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewModel.swift; sourceTree = "<group>"; };
+		21792B082C552B8100C8513C /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		21792B0A2C552B8D00C8513C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		21F1950D2C3AA9E6009BDF5E /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F195102C3AA9E6009BDF5E /* To_Do_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListApp.swift; sourceTree = "<group>"; };
 		21F195122C3AA9E6009BDF5E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 				21792AF02C5233C600C8513C /* ToDoListView.swift */,
 				21792AF22C550C7200C8513C /* NewItemView.swift */,
 				21792AF42C550C8C00C8513C /* LoginView.swift */,
+				21792B0A2C552B8D00C8513C /* RegisterView.swift */,
 				21792AF62C550CE000C8513C /* ToDoListItemView.swift */,
 			);
 			path = Views;
@@ -108,6 +113,7 @@
 				21792B022C550F0B00C8513C /* NewItemViewModel.swift */,
 				21792B042C552B1100C8513C /* LoginViewModel.swift */,
 				21792B062C552B4400C8513C /* ToDoListItemViewModel.swift */,
+				21792B082C552B8100C8513C /* RegisterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -231,10 +237,12 @@
 				21792B012C550EEB00C8513C /* ToDoListViewModel.swift in Sources */,
 				21792AF52C550C8C00C8513C /* LoginView.swift in Sources */,
 				21792AF72C550CE000C8513C /* ToDoListItemView.swift in Sources */,
+				21792B092C552B8100C8513C /* RegisterViewModel.swift in Sources */,
 				21F195132C3AA9E6009BDF5E /* MainView.swift in Sources */,
 				21792AF12C5233C600C8513C /* ToDoListView.swift in Sources */,
 				21792AF92C550D7800C8513C /* User.swift in Sources */,
 				21792B052C552B1100C8513C /* LoginViewModel.swift in Sources */,
+				21792B0B2C552B8D00C8513C /* RegisterView.swift in Sources */,
 				21792AFD2C550E7300C8513C /* MainViewModel.swift in Sources */,
 				21792B032C550F0B00C8513C /* NewItemViewModel.swift in Sources */,
 				21792AEF2C52332D00C8513C /* ProfileView.swift in Sources */,
