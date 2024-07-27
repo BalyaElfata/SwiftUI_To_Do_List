@@ -14,6 +14,7 @@
 		21792AF72C550CE000C8513C /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792AF62C550CE000C8513C /* ToDoListItemView.swift */; };
 		21792AF92C550D7800C8513C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792AF82C550D7800C8513C /* User.swift */; };
 		21792AFB2C550D9400C8513C /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792AFA2C550D9400C8513C /* ToDoListItem.swift */; };
+		21792AFD2C550E7300C8513C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21792AFC2C550E7300C8513C /* MainViewModel.swift */; };
 		21F195112C3AA9E6009BDF5E /* To_Do_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F195102C3AA9E6009BDF5E /* To_Do_ListApp.swift */; };
 		21F195132C3AA9E6009BDF5E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F195122C3AA9E6009BDF5E /* MainView.swift */; };
 		21F195152C3AA9E7009BDF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F195142C3AA9E7009BDF5E /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		21792AF62C550CE000C8513C /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		21792AF82C550D7800C8513C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		21792AFA2C550D9400C8513C /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
+		21792AFC2C550E7300C8513C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		21F1950D2C3AA9E6009BDF5E /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F195102C3AA9E6009BDF5E /* To_Do_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListApp.swift; sourceTree = "<group>"; };
 		21F195122C3AA9E6009BDF5E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		21792AED2C522F7C00C8513C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				21792AFC2C550E7300C8513C /* MainViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				21F195132C3AA9E6009BDF5E /* MainView.swift in Sources */,
 				21792AF12C5233C600C8513C /* ToDoListView.swift in Sources */,
 				21792AF92C550D7800C8513C /* User.swift in Sources */,
+				21792AFD2C550E7300C8513C /* MainViewModel.swift in Sources */,
 				21792AEF2C52332D00C8513C /* ProfileView.swift in Sources */,
 				21F195112C3AA9E6009BDF5E /* To_Do_ListApp.swift in Sources */,
 				21792AF32C550C7200C8513C /* NewItemView.swift in Sources */,
