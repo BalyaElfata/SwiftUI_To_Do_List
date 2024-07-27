@@ -58,6 +58,7 @@
 		21792AEA2C522F5E00C8513C /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				21F195142C3AA9E7009BDF5E /* Assets.xcassets */,
 				21F195262C3AC372009BDF5E /* GoogleService-Info.plist */,
 				21F195102C3AA9E6009BDF5E /* To_Do_ListApp.swift */,
 			);
@@ -116,7 +117,6 @@
 				21792AED2C522F7C00C8513C /* ViewModels */,
 				21792AEC2C522F7600C8513C /* Models */,
 				21792AEB2C522F6E00C8513C /* Views */,
-				21F195142C3AA9E7009BDF5E /* Assets.xcassets */,
 				21F195162C3AA9E7009BDF5E /* To_Do_List.entitlements */,
 				21F195172C3AA9E7009BDF5E /* Preview Content */,
 			);
