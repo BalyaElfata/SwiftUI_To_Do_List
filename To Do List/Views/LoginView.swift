@@ -13,6 +13,10 @@ struct LoginView: View {
     @State var password = ""
     
     var body: some View {
+        
+        @State var email = ""
+        @State var password = ""
+        
         NavigationView {
             VStack {
                 // Header
