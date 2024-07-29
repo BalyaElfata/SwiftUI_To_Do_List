@@ -20,6 +20,16 @@ struct RegisterView: View {
                        angle: -15,
                        background: .orange)
             
+            Form {
+                TextField("Full Name", text: $name)
+                    .textFieldStyle(DefaultTextFieldStyle())
+                TextField("Email Address", text: $email)
+                    .textFieldStyle(DefaultTextFieldStyle())
+                TextField("Password", text: $password)
+                    .textFieldStyle(DefaultTextFieldStyle())
+            }
+            .offset(y: -50)
+            
             Spacer()
         }
     }
