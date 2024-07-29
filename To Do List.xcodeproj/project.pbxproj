@@ -112,8 +112,8 @@
 				21792B002C550EEB00C8513C /* ToDoListViewModel.swift */,
 				21792B022C550F0B00C8513C /* NewItemViewModel.swift */,
 				21792B042C552B1100C8513C /* LoginViewModel.swift */,
-				21792B062C552B4400C8513C /* ToDoListItemViewModel.swift */,
 				21792B082C552B8100C8513C /* RegisterViewModel.swift */,
+				21792B062C552B4400C8513C /* ToDoListItemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
