@@ -8,13 +8,9 @@
 import SwiftUI
 
 struct LoginView: View {
-    
-    @State var email = ""
-    @State var password = ""
+    @StateObject var viewModel = LoginViewModel()
     
     var body: some View {
-        @StateObject var viewModel = LoginViewModel()
-        
         NavigationView {
             VStack {
                 // Header
