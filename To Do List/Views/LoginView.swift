@@ -22,8 +22,11 @@ struct LoginView: View {
                 Form {
                     TextField("Email Address", text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .textInputAutocapitalization(.none)
+                    
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .textInputAutocapitalization(.none)
                     
                     Button {
                         // attempt log in
