@@ -32,10 +32,11 @@ struct LoginView: View {
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                     
-                    TLButton(title: "Log In", 
-                             background: .blue
+                    TLButton(
+                        title: "Log In",
+                        background: .blue
                     ) {
-                        // Attempt log in
+                        viewModel.login()
                     }
                     .padding()
                 }
