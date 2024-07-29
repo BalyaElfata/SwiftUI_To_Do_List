@@ -32,17 +32,10 @@ struct LoginView: View {
                         .textFieldStyle(DefaultTextFieldStyle())
                         .textInputAutocapitalization(.none)
                     
-                    Button {
-                        // attempt log in
-                    } label: {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundStyle(Color.blue)
-                            
-                            Text("Log In")
-                                .foregroundStyle(Color.white)
-                                .bold()
-                        }
+                    TLButton(title: "Log In", 
+                             background: .blue
+                    ) {
+                        // Attempt log in
                     }
                     .padding()
                 }
