@@ -28,7 +28,7 @@ struct LoginView: View {
                     // attempt log in
                 } label: {
                     ZStack {
-                        RoundedRectangle(cornerSize: 10)
+                        RoundedRectangle(cornerRadius: 10)
                             .foregroundStyle(Color.blue)
                         
                         Text("Log In")
@@ -39,6 +39,12 @@ struct LoginView: View {
             }
             
             // Create Account
+            VStack {
+                Text("New around here?")
+                Button("Create An Account") {
+                    // Show registration
+                }
+            }
             
             Spacer()
         }
